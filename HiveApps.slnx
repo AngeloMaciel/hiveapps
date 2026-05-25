@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/backend/" />
+  <Folder Name="/backend/src/">
+    <Project Path="backend/src/HiveApps.Api/HiveApps.Api.csproj" />
+    <Project Path="backend/src/HiveApps.Infrastructure/HiveApps.Infrastructure.csproj" />
+    <Project Path="backend/src/HiveApps.SharedKernel/HiveApps.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/backend/src/Modules/">
+    <Project Path="backend/src/Modules/HiveApps.Modules.Audit/HiveApps.Modules.Audit.csproj" />
+    <Project Path="backend/src/Modules/HiveApps.Modules.Crm/HiveApps.Modules.Crm.csproj" />
+    <Project Path="backend/src/Modules/HiveApps.Modules.Identity/HiveApps.Modules.Identity.csproj" />
+    <Project Path="backend/src/Modules/HiveApps.Modules.Tenants/HiveApps.Modules.Tenants.csproj" />
+  </Folder>
+</Solution>

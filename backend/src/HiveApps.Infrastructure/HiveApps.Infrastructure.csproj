@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\HiveApps.SharedKernel\HiveApps.SharedKernel.csproj" />
+    <ProjectReference Include="..\Modules\HiveApps.Modules.Crm\HiveApps.Modules.Crm.csproj" />
+    <ProjectReference Include="..\Modules\HiveApps.Modules.Identity\HiveApps.Modules.Identity.csproj" />
+    <ProjectReference Include="..\Modules\HiveApps.Modules.Tenants\HiveApps.Modules.Tenants.csproj" />
+    <ProjectReference Include="..\Modules\HiveApps.Modules.Audit\HiveApps.Modules.Audit.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
