@@ -11,9 +11,9 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 //intentionally enabled on production for testing, development and learning purposes
-    app.MapOpenApi();
-    app.UseSwagger();
-    app.UseSwaggerUI();
+app.MapOpenApi();
+app.UseSwagger();
+app.UseSwaggerUI();
 
 
 app.UseHttpsRedirection();
