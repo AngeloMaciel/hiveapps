@@ -1,6 +1,7 @@
-# Build outputs
+# Build and publish outputs
 **/bin/
 **/obj/
+**/.publish/
 
 # IDE
 .vs/
